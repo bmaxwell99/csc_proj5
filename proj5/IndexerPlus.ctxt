@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=IndexerPlus
+comment0.text=\r\n\ IndexerPlus\ class\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nodeData
+comment1.target=IndexerPlus(java.lang.Comparable)
+comment1.text=\r\n\ constructor\ \r\n
+comment2.params=data
+comment2.target=void\ add(java.lang.Comparable)
+comment2.text=\r\n\ Adds\ a\ new\ node\ to\ the\ tree\r\n\r\n\ @param\ \ \ data\ \ \ \ \ the\ data\ to\ add\ to\ the\ tree\r\n
+comment3.params=root\ data
+comment3.target=IndexerPlus.BstNode\ add(IndexerPlus.BstNode,\ java.lang.Comparable)
+comment3.text=\r\n\ Adds\ a\ new\ node\ to\ the\ binary\ tree.\ \ It\ begins\ the\ search\ for\ the\ right\ spot\ at\ the\ specified\ point\ in\ the\ tree.\ \ \r\n\ This\ is\ the\ private,\ recursive\ helper\ function\ that\ actually\ does\ the\ work.\r\n\ \r\n\ @param\ \ \ data\ \ \ \ \ the\ value\ to\ be\ added\ to\ the\ new\ node's\ data\ field\r\n\ @param\ \ \ root\ \ \ \ \ \ \ the\ existing\ tree\ node\ at\ which\ to\ start\ searching\ for\ the\ proper\ spot\ for\ the\ data\r\n
+comment4.params=data
+comment4.target=boolean\ contains(java.lang.Comparable)
+comment4.text=\r\n\ Searches\ the\ binary\ tree\ for\ the\ specified\ data\r\n\ \r\n\ @param\ \ \ data\ \ the\ data\ field\ to\ search\ for\ within\ tree\ nodes\r\n\ @returns\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ true\ if\ the\ node\ data\ is\ found\ within\ a\ node\ in\ the\ binary\ tree,\ false\ if\ not\ found\r\n
+comment5.params=root\ data
+comment5.target=boolean\ contains(IndexerPlus.BstNode,\ java.lang.Comparable)
+comment5.text=\r\n\ Recursive\ helper\ function\ for\ finding\ data\ within\ nodes\ of\ the\ tree\r\n\ \r\n\ @param\ \ \ data\ \ the\ data\ field\ to\ search\ for\ within\ tree\ nodes\r\n\ @param\ \ \ root\ \ \ \ \ \ \ the\ node\ at\ which\ to\ start\ searching\ for\ the\ data\ within\ nodes\r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ Prints\ contents\ of\ tree,\ in\ order\r\n
+comment7.params=root
+comment7.target=void\ display(IndexerPlus.BstNode)
+comment7.text=\r\n\ Recursive\ helper\ function\ for\ displaying\ data\ within\ nodes\ of\ the\ tree,\ using\ in-order\ traversal\r\n\ \r\n\ @param\ \ \ root\ \ \ \ \ \ \ the\ node\ at\ which\ to\ start\ searching\ for\ the\ data\ within\ nodes\r\n
+numComments=8
