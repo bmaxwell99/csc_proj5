@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WearableManger
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ WearableManger\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=WearableManger()
+comment1.text=\r\n\ constructor\ for\ the\ class\r\n
+comment2.params=
+comment2.target=int[]\ getRankingPositionData()
+comment2.text=\r\n\ returns\ an\ array\ of\ indexes\ sorted\ by\ Ranking\ Data\r\n\ \r\n\ @return\ array\ of\ index\r\n
+comment3.params=
+comment3.target=int[]\ getPricePositionData()
+comment3.text=\r\n\ retunrs\ an\ array\ of\ indexes\ sorted\ by\ Price\ data\r\n\ \r\n\ @return\ array\ of\ index\r\n
+comment4.params=
+comment4.target=int[]\ getCoNamePositionData()
+comment4.text=\r\n\ returns\ an\ array\ of\ indexes\ sorted\ by\ Company\ Name\ Data\r\n\ \r\n\ @returns\ array\ of\ index\r\n
+comment5.params=sortedData
+comment5.target=java.lang.String\ generateCSV(int[])
+comment5.text=\r\n\ generates\ a\ CSV\ of\ the\ data\r\n\ \r\n\ @returns\ the\ filename\ created\r\n
+numComments=6
